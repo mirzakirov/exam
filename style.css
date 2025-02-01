@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+.header-container {
+  background-color: white;
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-flex {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.contact-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.hero-text {
+  font-size: 36px;
+  max-width: 500px;
+}
+.learn-more {
+  background-color: #1aab7b;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+.services-container {
+  background-color: #e9ecef;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.service-box {
+  width: 384px;
+  height: 358px;
+}
+.service-box h3 {
+  font-size: 32px;
+}
+.two {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  padding: 30px;
+}
+
+.something {
+  display: flex;
+  margin: auto;
+  height: 500px;
+  background-image: url("./image\ 1\ \(1\).png");
+  justify-content: center;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+}
+.service-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.service-box:hover {
+  background-color: #1aab7b;
+  transition: 1s;
+}
+
+.headergirl {
+  background-color: #f8f9fa;
+}
+
+.leave {
+  font-size: 36px;
+  transform: translate(400px, 0);
+}
+
+.img {
+  width: 1216px;
+  height: 515px;
+  transform: translate(100px, 0);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.7;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.input1 {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input2 {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input3 {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.logoend{
+    margin-left: 1240px;
+    
+}
